@@ -7,4 +7,23 @@ In MSSFNet, we innovatively design a spatial-spectral feature extraction block (
 ## CHN-YE7-FRA Dataset
 The dataset consists of manually labelled pixel-level Sentinel-2 satellite images covering seven typical FRA regions in the Yellow Sea and East China Sea of China, and the data include various FRA types covering a variety of complex environmental and geographical conditions.
 
+This dataset is a .tif format image and label file, due to the large file size, it can not be directly uploaded to github, so please download it through Google Cloud Drive or Baidu Cloud Drive, please pay attention to the citation source when using.
+
+Google Cloud Drive：
+
+Baidu Cloud Drive：
+
+If you have any problems with use or download, you can contact : yhmhhxx@163.com ;
+
+## Description of data
+|Area	|Image Size	|Image Date | CoverageArea(km2) |
+| ------ | ------ |------ |
+|Changhai County|	4450×2476|	2022.12.01 and 2023.01.25| 110.18 |
+|Jinshitan Bay|	5879×2387|	2022.12.01 and 2023.01.25| 140.33|
+|Rongcheng Bay|	3181×5927|	2022.12.01 and 2023.01.25| 188.54|
+|Haizhou Bay|	4096×3568|	2022.12.05 and 2023.01.20| 146.15|
+|Dayu Bay|	1065×902|	2022.12.20 and 2023.01.25| 9.61|
+|Sansha Bay|	6101×4092|	2022.12.21 and 2023.01.25| 249.65|
+|Zhaoan Bay|	1239×2121|	2022.12.05 and 2023.01.25| 26.28 |
+
 ** ! We are in the process of organizing and uploading the dataset, and will share it in the future via a link between Baidu Cloud Drive and Google Cloud Drive!
