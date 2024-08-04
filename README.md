@@ -9,10 +9,12 @@ The dataset consists of manually labelled pixel-level Sentinel-2 satellite image
 
 This dataset is a .tif format image and label file, due to the large file size, it can not be directly uploaded to github, so please download it through Google Cloud Drive or Baidu Cloud Drive, please pay attention to the citation source when using.
 
-Google Cloud Drive：
-
-Baidu Cloud Drive：
-
+*Google Cloud Drive：*    
+RGB tri-band synthesized version: https://drive.google.com/file/d/1WmWMYqPqV8oerl0OfjHDW-Abuk_AK4E0/view?usp=drive_link  
+MSI version:  
+*Baidu Cloud Drive：*    
+RGB tri-band synthesized version: https://pan.baidu.com/s/1BaGtcSV2kAIPunYuyEKpCA?pwd=23tm  
+MSI version:  
 If you have any problems with use or download, you can contact : yhmhhxx@163.com ;
 
 ## Description of data
