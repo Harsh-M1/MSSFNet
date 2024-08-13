@@ -32,17 +32,16 @@ If you have any problems with use or download, you can contact : yhmhhxx@163.com
 ## Chicago/Turabian Style
 Yu, Haomiao, Yingzi Hou, Fangxiong Wang, Junfu Wang, Jianfeng Zhu, and Jianke Guo. 2024. "MSSFNet: A Multiscale Spatial–Spectral Fusion Network for Extracting Offshore Floating Raft Aquaculture Areas in Multispectral Remote Sensing Images" Sensors 24, no. 16: 5220. https://doi.org/10.3390/s24165220
 ## BibTex
-@Article{s24165220,
-AUTHOR = {Yu, Haomiao and Hou, Yingzi and Wang, Fangxiong and Wang, Junfu and Zhu, Jianfeng and Guo, Jianke},
-TITLE = {MSSFNet: A Multiscale Spatial–Spectral Fusion Network for Extracting Offshore Floating Raft Aquaculture Areas in Multispectral Remote Sensing Images},
-JOURNAL = {Sensors},
-VOLUME = {24},
-YEAR = {2024},
-NUMBER = {16},
-ARTICLE-NUMBER = {5220},
-URL = {https://www.mdpi.com/1424-8220/24/16/5220},
-ISSN = {1424-8220},
-ABSTRACT = {Accurately extracting large-scale offshore floating raft aquaculture (FRA) areas is crucial for supporting scientific planning and precise aquaculture management. While remote sensing technology offers advantages such as wide coverage, rapid imaging, and multispectral capabilities for FRA monitoring, the current methods face challenges in terms of establishing spatial–spectral correlations and extracting multiscale features, thereby limiting their accuracy. To address these issues, we propose an innovative multiscale spatial–spectral fusion network (MSSFNet) designed specifically for extracting offshore FRA areas from multispectral remote sensing imagery. MSSFNet effectively integrates spectral and spatial information through a spatial–spectral feature extraction block (SSFEB), significantly enhancing the accuracy of FRA area identification. Additionally, a multiscale spatial attention block (MSAB) captures contextual information across different scales, improving the ability to detect FRA areas of varying sizes and shapes while minimizing edge artifacts. We created the CHN-YE7-FRA dataset using Sentinel-2 multispectral remote sensing imagery and conducted extensive evaluations. The results showed that MSSFNet achieved impressive metrics: an F1 score of 90.76%, an intersection over union (IoU) of 83.08%, and a kappa coefficient of 89.75%, surpassing those of state-of-the-art methods. The ablation results confirmed that the SSFEB and MSAB modules effectively enhanced the FRA extraction accuracy. Furthermore, the successful practical applications of MSSFNet validated its generalizability and robustness across diverse marine environments. These findings highlight the performance of MSSFNet in both experimental and real-world scenarios, providing reliable, precise FRA area monitoring. This capability provides crucial data for scientific planning and environmental protection purposes in coastal aquaculture zones.},
-DOI = {10.3390/s24165220}
-}
+@Article{  s24165220,  
+AUTHOR = {Yu, Haomiao and Hou, Yingzi and Wang, Fangxiong and Wang, Junfu and Zhu, Jianfeng and Guo, Jianke},  
+TITLE = {MSSFNet: A Multiscale Spatial–Spectral Fusion Network for Extracting Offshore Floating Raft Aquaculture Areas in Multispectral Remote Sensing Images},  
+JOURNAL = {Sensors},  
+VOLUME = {24},  
+YEAR = {2024},  
+NUMBER = {16},  
+ARTICLE-NUMBER = {5220},  
+URL = {https://www.mdpi.com/1424-8220/24/16/5220},  
+ISSN = {1424-8220},  
+DOI = {10.3390/s24165220}  
+  }
 
