@@ -5,6 +5,9 @@ In MSSFNet, we innovatively design a spatial-spectral feature extraction block (
 
 # CHN-YE7-FRA Dataset
 The dataset consists of manually labelled pixel-level Sentinel-2 satellite images covering seven typical FRA regions in the Yellow Sea and East China Sea of China, and the data include various FRA types covering a variety of complex environmental and geographical conditions.
+<div align=center>
+<img src=https://github.com/user-attachments/assets/f6b90136-49b2-4f81-8b90-6b5ee49e88b3 width=80%/>
+</div>
 
 This dataset is a .tif format image and label file, due to the large file size, it can not be directly uploaded to github, so please download it through Google Cloud Drive or Baidu Cloud Drive, please pay attention to the citation source when using.
 
