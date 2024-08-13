@@ -2,11 +2,14 @@
 MSSFNet and CHN-YE7-FRA dataset for Sentinel-2 Images Extraction of Offshore Floating Raft AquacultureThis repository includes the pytorch version of MSSFNet code and CHN-YE7-FRA dataset.
 ## MSSFNet
 In MSSFNet, we innovatively design a spatial-spectral feature extraction block (SSFEB), which is used to replace the ResBlock in ResNet18 as the encoder of the model. The SSFEB is able to simultaneously extract multilevel spatial features and the links between spectral channels, realizing the efficient fusion of spatial and spectral information. It captures the complementary information between spectral bands and integrates it into the spatial domain, which enhances the comprehensiveness and richness of the feature representations. This design not only enhances the ability of the model to perceive FRA features in different bands but also improves the complementarity of the spectral and spatial features so that the model can accurately extract the target region even under complex backgrounds. In addition, we design a multiscale spatial attention block (MSAB) for capturing spatial features at different scales. The MSAB is able to integrate spatial information acquired under different receptive fields to realize a global receptive field and multiscale learning, which improves the ability of the model to detect various FRA features. By integrating multiscale features, the MSAB enhances the ability of the network to detect FRA regions of different sizes and shapes and improves its adaptability to complex backgrounds. Through the synergy of the SSFEB and MSAB, MSSFNet effectively integrates and utilizes multiscale spatial and spectral features, which significantly improves the extraction accuracy achieved for FRA regions in multispectral RSIs. This design not only optimizes the feature extraction process but also enhances the robustness and flexibility of the model in addressing complex marine environments so that it can better cope with variable ocean conditions and background interference and ultimately achieve high-precision FRA region extraction.
+<div align=center>
+<img src=https://github.com/user-attachments/assets/159a810a-b6ca-4806-a5e9-a998875b5281 width=70%/>
+</div>
 
 # CHN-YE7-FRA Dataset
 The dataset consists of manually labelled pixel-level Sentinel-2 satellite images covering seven typical FRA regions in the Yellow Sea and East China Sea of China, and the data include various FRA types covering a variety of complex environmental and geographical conditions.
 <div align=center>
-<img src=https://github.com/user-attachments/assets/f6b90136-49b2-4f81-8b90-6b5ee49e88b3 width=80%/>
+<img src=https://github.com/user-attachments/assets/f6b90136-49b2-4f81-8b90-6b5ee49e88b3 width=70%/>
 </div>
 
 This dataset is a .tif format image and label file, due to the large file size, it can not be directly uploaded to github, so please download it through Google Cloud Drive or Baidu Cloud Drive, please pay attention to the citation source when using.
